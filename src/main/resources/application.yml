@@ -1,0 +1,9 @@
+logging:
+  level:
+    root: info
+spring:
+  freemarker:
+    cache: false
+    suffix: .ftl
+  mvc:
+    static-path-pattern: /static/**
